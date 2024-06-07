@@ -1,0 +1,9 @@
+# steps for farmbot demo shortcut
+Speak "Running the Farmbot Demo"
+  Voice: Siri Voice 4
+  http://yourwebhost.org/webhook 
+  Getcontents of URL 
+  Method POST
+  Request Body JSON
+  Speak "The Farmbot Demo Completed"
+  Voice: Siri Voice 4
