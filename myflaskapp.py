@@ -3,7 +3,9 @@ import subprocess
 import os
 
 app = Flask(__name__)
-
+# This creates the directory on the server that triggers the flask app to run the script when a 
+# POST is made to the url, and I set up a siri shortcut to make this work http://22.22.22.22/webhook  
+# The  repeated with a bunch more directorys and python scripts
 @app.route('/webhook', methods=['POST'])
 def webhook():
     if request.method == 'POST':
