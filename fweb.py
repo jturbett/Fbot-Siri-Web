@@ -8,7 +8,7 @@ app = Flask(__name__)
 @app.route('/run-script', methods=['POST'])
 def run_script():
     try:
-        # Run the local Python script
+        # Run the local Python script, use full PATH when not sure
         result = subprocess.run(["/usr/bin/python3", "/home/fbot/motion1.py"], capture_output=True, text=True)
 
         # Check if the script ran successfully
