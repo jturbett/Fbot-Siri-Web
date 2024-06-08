@@ -1,3 +1,6 @@
+# This script moves to each x and y location of the plants ( statically) vs getting them drynamically from the farmbot
+# the waters each for 1 second by turning the pin 8 on, and notifying teams at each interval.
+
 import json
 import logging
 import time
