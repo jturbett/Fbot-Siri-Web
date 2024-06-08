@@ -1,5 +1,5 @@
 {"token": {"unencoded": {"aud": "unknown", "sub": xxxx, "iat": 16697554, "jti": "5fc2a5ac-fbe3-435b-9af9-119c07adf6bf", "iss": "//my.farm.bot:443", "exp": 17228815
 54, "mqtt": "clever-octopus.rmq.cloudamqp.com", "bot": "device_xxxx", "vhost": "xiconfum", "mqtt_ws": "wss://clever-octopus.rmq.cloudamqp.com:443/ws/mqtt"}, "encoded
-": "Paste Token here without carriage returns"}, "user": {"id": xxxx, "device_id": xxxx, "name": "your name", "ema
+": "Paste Token here without carriage returns or just use the auth.py script to dynamically create this file locally"}, "user": {"id": xxxx, "device_id": xxxx, "name": "your name", "ema
 il": "youremail@email here", "created_at": "2020-04-05T00:02:04.407Z", "updated_at": "2024-05-26T03:58:40.416Z", "agreed_to_terms_at": "2020-04-05T00:02:04.324Z", "in
 activity_warning_sent_at": null, "language": "English"}}
